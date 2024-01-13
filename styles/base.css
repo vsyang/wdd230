@@ -59,12 +59,11 @@ main h1 {
     color: black;
     border: 1px solid rgb(63, 60, 60, 0.4);
     border-radius: 5px;
-    text-decoration: none;
     overflow: hidden;
 }
 
 .card a {
-    text-decoration: none;
+
     color: black;
 }
 
