@@ -18,14 +18,12 @@ header {
 
 header span {
     padding: 30px;
-    justify-content: center;
     color: white;
     font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav {
-    display: grid;
     background-color: black;
     text-align: center;
     font-size: 20px;
@@ -41,7 +39,7 @@ nav .active {
     background-color: rgba(123, 29, 29, 0.635);
     text-decoration: none;
     color: white;
-    text-shadow: 1px white;
+    font-weight: bold;
 }
 
 nav li {
@@ -76,6 +74,16 @@ main h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+
+.card ul {
+    padding: 10px;
+}
+
+
+.card li {
+    padding: 3px;
+}
+
 .card p{
     padding: 10px;
     text-align: center;

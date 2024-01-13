@@ -1,24 +1,56 @@
-@media only screen and (min-width: 2000px) {
-    .card {
+@media only screen and (min-width: 450px) {
+    main {
+        max-width: 800px;
+        margin: 0 auto;
         display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    header, nav ul {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    nav {  
+        margin: 0 auto;
+    }
+    
+    nav ul {
+        list-style-type: none;
+    }
+
+    nav ul li {
+        display: flex;
+        flex: 1 1 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+    }
+
+    nav li:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    main 
+
+    
+    .card {
         grid-template-columns: 2fr 1fr;
         column-gap: 10px;
-    }
-
-    .card section {
         box-shadow: 1px 1px 10px black;
     }
-    /* nav ul{
-        display: flex;
-        width: 1fr 1fr 1fr 1fr;
-    } */
 
-    /* nav li:hover {
-        background-color: rgba(255, 255, 255, 0.2);
-    } */
 
-    /* a:link {text-decoration: none;}
+
+    a:link {text-decoration: none;}
     a:visited {text-decoration: none;}
     a:hover {text-decoration: none;}
-    a:active {text-decoration: none;} */
+    a:active {text-decoration: none;}
 }
