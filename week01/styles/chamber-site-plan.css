@@ -5,6 +5,14 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+:root {
+    --fairy-tale: #f9c8d2ff;
+    --sky-blue: #70e2ffff;
+    --folly: #f52f57ff;
+    --paynes-gray: #495867ff;
+    --onyx: #37393aff;
+}
+
 nav {
     background-color: black;
     text-align: center;
