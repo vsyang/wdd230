@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: var(--body-font);
     color: var(--body-color);
-    font-size: 18px;
+    font-size: 20px;
 }
 
 :root {
@@ -34,6 +34,7 @@ h1{
 
 h2 {
     font-size: 35px;
+    background-color: var(--shadow1);
 }
 
 header, footer {
@@ -53,7 +54,6 @@ nav {
     background-color:var(--heading-color);
     text-align: center;
     font-size: 25px;
-    color: white;
 }
 
 nav a {
@@ -69,7 +69,7 @@ nav ul {
 }
 
 nav .active {
-    background-color:var(--extra-color);
+    background-color: rgba(162, 73, 73, 0.272);
     border: solid 1px;
     text-decoration: none;
     color: black;
@@ -149,4 +149,8 @@ section {
 .wireframe img {
     max-width: 800px;
     justify-content: center;
+}
+
+li {
+    list-style-type: none;
 }
