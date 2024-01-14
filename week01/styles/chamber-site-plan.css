@@ -1,19 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--body-font);
+    color: var(--body-color);
 }
 
 :root {
-    --fairy-tale: #f9c8d2ff;
-    --sky-blue: #70e2ffff;
-    --folly: #f52f57ff;
-    --paynes-gray: #495867ff;
-    --onyx: #37393aff;
+    --shadow1: #f9c8d2ff;
+    --shadow2: #70e2ffff;
+    --extra-color: #f52f57ff;
+    --heading-color: #495867ff;
+    --body-color: #37393aff;
+
+    --heading-font: 'Merriweather', serif;
+    --body-font: 'Lato', sans-serif; 
+    --emergency-font: 'Roboto', sans-serif;
+}
+
+header, footer {
+    background-color: var(--shadow1);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+}
+
+header, nav ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 nav {
+    margin: 0 auto;
     background-color: black;
     text-align: center;
     font-size: 20px;
@@ -23,13 +47,23 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
+    padding: 10px;;
 }
 
 nav .active {
-    background-color: rgba(123, 29, 29, 0.635);
+    background-color: var(--shadow2);
+    opacity: 0.635;
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+nav ul li {
+    display: flex;
+    flex: 1 1 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 nav li {
