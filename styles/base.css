@@ -30,6 +30,18 @@ nav {
     color: white;
 }
 
+#menuButton {
+    display: block;
+    font-size: 40px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: 5px 2vw;
+}
+
 nav a {
     color: white;
     text-decoration: none;
