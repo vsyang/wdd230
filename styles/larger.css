@@ -5,6 +5,11 @@
         text-align: center;
     }
     
+    header, main, nav, footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
     nav {  
         margin: 0 auto;
         height: 44px;
@@ -30,7 +35,6 @@
 
     main {
         display: grid;
-        max-width: 800px;
         margin: 0 auto;
         grid-template-columns: auto auto;
         grid-template-rows: auto 1fr;
