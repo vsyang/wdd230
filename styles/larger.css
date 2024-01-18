@@ -7,18 +7,17 @@
     
     nav {  
         margin: 0 auto;
+        height: 44px;
     }
     
-    nav ul {
-        list-style-type: none;
+    #menuButton {
+        display: none;
     }
 
-    nav ul li {
+    
+    ul.navLinks, ul.navLinks.open {
         display: flex;
-        flex: 1 1 auto;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     nav a {
