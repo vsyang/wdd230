@@ -1,5 +1,6 @@
 const myBtn = document.querySelector('#darkBtn');
+const mainDark = document.querySelector('main');
 
 myBtn.addEventListener('click', () => {
-    main.classList.toggle('dark');
+    mainDark.classList.toggle('dark');
 });
