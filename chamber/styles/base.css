@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--body-font);
+    color: var(--body-color);
+    font-size: 20px;
+}
+
+:root {
+    --shadow1: #f9c8d2ff;
+    --shadow2: #70e2ffff;
+    --extra-color: #f52f57ff;
+    --heading-color: #495867ff;
+    --body-color: #37393aff;
+
+    --heading-font: 'Merriweather', serif;
+    --body-font: 'Lato', 'Roboto', sans-serif; 
+    --emergency-font: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+}
+
+h2 {
+    font-size: 35px;
+    background-color: var(--shadow1);
+}
+
+header, footer {
+    background-color: var(--shadow2);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    position: relative;
+
+}
+header img {
+    padding: 50px 0px 0px 2vw;
+    width: 150px;
+    height: 150px;
+}
+
+header h1 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+#menuButton {
+    display: block;
+    font-size: 40px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 44px;
+    text-align: left;
+    padding: 5px 2vw;
+}
+
+#menuButton::before {
+    content: "☰";
+}
+
+#menuButton.open::before {
+    content: " x";
+}
+
+ul.navLinks {
+    display: none;
+    list-style-type: none;
+}
+
+ul.open.navLinks {
+    display: block;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .active {
+    background-color: rgba(123, 29, 29, 0.635);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav li {
+    padding: 10px;
+}
+
+main section  {
+    margin: 1rem 2vw;
+    color: black;
+    border: 1px solid rgb(63, 60, 60, 0.4);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #eee;
+}
+
+
+
+footer p, #currentYear {
+    background-color: black;
+    color: #f6f7eb;
+}

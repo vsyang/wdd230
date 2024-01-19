@@ -84,7 +84,7 @@ nav .active {
 }
 
 nav li {
-    padding: 8px;
+    padding: 10px;
 }
 
 main {
@@ -99,14 +99,6 @@ main.dark h1 {
     color: white;
 }
 
-main h1 {
-    padding-top: 25px;
-    padding-bottom: 10px;
-    font-size: 25px;
-    text-align: center;
-    border-bottom: solid rgba(0, 0, 0, 0.156) 5px;
-}
-
 main section  {
     margin: 1rem 2vw;
     color: black;
@@ -114,6 +106,14 @@ main section  {
     border-radius: 5px;
     overflow: hidden;
     background-color: #eee;
+}
+
+main h1 {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: solid rgba(0, 0, 0, 0.156) 5px;
 }
 
 .card a {
