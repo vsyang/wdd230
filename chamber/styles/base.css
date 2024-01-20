@@ -151,8 +151,17 @@ main section  {
     border-radius: 5px;
     overflow: hidden;
     background-color: #eee;
+    height: 150px;
 }
 
+.spotlights {
+    height: 494px;
+}
+
+.spotlight {
+    border: solid black 1px;
+    height: 150px;
+}
 
 .footer-top {
     display: flex;
