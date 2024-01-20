@@ -42,9 +42,9 @@ header {
 
 }
 header img {
-    padding: 50px 0px 0px 2vw;
+    padding: 30px 0px 30px 2vw;
     width: 150px;
-    height: 150px;
+    height: auto;
 }
 
 header h1 {
@@ -104,6 +104,48 @@ nav li {
     padding: 10px;
 }
 
+
+.hero img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero-content {
+    margin: 20px;
+    padding: 25px;
+    position: relative;
+    box-sizing: border-box;
+    opacity: 0.7;
+    text-align: center;
+    transform: translate(-50%, -100%);
+    top: 50%;
+    left: 50%;
+}
+
+button, .cta {
+    overflow: hidden;
+    font-size: 30px;
+    animation-duration: 8s;
+    animation-name: joinUs;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    text-align: center;
+    letter-spacing: 20px;
+    background: none;
+    text-shadow: 2px 2px black ;
+}
+
+@keyframes joinUs {
+    0% {color: #c2e7d9;}
+    25% {color: rgb(14, 244, 14)}
+    50% {color: aqua;}
+    75% {color: yellow}
+    100% {color: pink;}
+}
+
 main section  {
     margin: 1rem 2vw;
     color: black;
@@ -114,6 +156,21 @@ main section  {
 }
 
 
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+footer .logo img {
+    width: 90px;
+    padding-top: 30px;
+}
+
+.social-media {
+    padding-top: 25px;
+}
 
 footer p, #currentYear {
     background-color: black;
