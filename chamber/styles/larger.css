@@ -48,8 +48,10 @@
 
     .hero-content {
         width: 850px;
-        grid-row: 1/2;
-        position: absolute;
+        position: relative;
+        transform: translate(-50%, -900%);
+        top: 50%;
+        left: 50%;
     }
 
     .current-events {
