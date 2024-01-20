@@ -5,6 +5,10 @@
         text-align: center;
     }
     
+    header h1 {
+        font-size: 44px;
+    }
+
     header, main, nav, footer {
         max-width: 900px;
         margin: 0 auto;
