@@ -173,4 +173,5 @@ footer .logo img {
 footer p, #currentYear {
     background-color: black;
     color: #f6f7eb;
+    padding: 5px;
 }
