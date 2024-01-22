@@ -22,3 +22,9 @@ img {
         opacity: 1;
     }
 }
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}

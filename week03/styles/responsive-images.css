@@ -2,3 +2,9 @@
     width: 100%;
     height: auto;
 }
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
