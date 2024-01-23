@@ -37,7 +37,7 @@
         display: grid;
         margin: 0 auto;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto 1fr;
+        grid-template-rows: repeat(3, auto);
         gap: 20px;
     }
 
@@ -53,8 +53,7 @@
     main h1 {
         margin: 0;
         height: 70px;
-        grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column:1/4
     }
 
     .card {
@@ -63,5 +62,10 @@
         grid-column: span 2;
         column-gap: 5px;
         box-shadow: 1px 1px 10px black;
+    }
+
+    iframe {
+        grid-column: 1/4;
+        height: 400px
     }
 }
