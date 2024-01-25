@@ -114,13 +114,13 @@ nav li {
 .hero-content {
     margin: 20px;
     padding: 25px;
-    position: relative;
+    position: absolute;
     box-sizing: border-box;
     opacity: 0.7;
     text-align: center;
     transform: translate(-50%, -100%);
     top: 50%;
-    left: 50%;
+    left: 45%;
 }
 
 button, .cta {
@@ -163,6 +163,10 @@ main section  {
     height: 150px;
 }
 
+iframe {
+    width: 200px;
+    height: 200px;
+}
 .footer-top {
     display: flex;
     flex-wrap: wrap;
