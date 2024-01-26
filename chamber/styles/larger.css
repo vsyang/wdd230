@@ -74,7 +74,24 @@
     }
 
     main .main2 {
-        grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .sidebar {
+        grid-area: 1 / 1;
+        top: 20%;
+        position: sticky;
+        height: auto;
     }
     
+    .localAttractions {
+        grid-column: 2/4;
+        grid-row: 1/4;
+    }
+
+    .localAttractions img {
+        width: 240px;
+        height: auto;
+    }
 }

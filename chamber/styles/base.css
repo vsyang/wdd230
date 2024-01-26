@@ -185,13 +185,33 @@ footer p, #currentYear {
     padding: 5px;
 }
 
-iframe {
-    width: 200px;
-    height: 200px;
-}
-
 .main2 section {
     margin: 2vw;
     height: auto;
     text-align: center;
+    border: 5px solid; 
+    border-image-slice: 1;
+    padding: 1px;
+    margin-bottom: 20px;
+    animation: joinUs 8s infinite;
 }
+
+.sidebar p, .localAttractions figure {
+    margin: 20px 0px 20px 0px;
+}
+
+.localAttractions figure img{
+    border: 2px solid black;  
+}
+
+.localAttractions img:hover {
+    rotate: .05turn;
+}
+
+iframe {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+}
+
