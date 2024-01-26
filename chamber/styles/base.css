@@ -39,7 +39,7 @@ header {
     position: relative;
 
 }
-header img {
+header img, .logo img{
     padding: 30px 0px 30px 2vw;
     width: 150px;
     height: auto;
@@ -164,6 +164,7 @@ main section  {
 }
 
 iframe {
+    margin: 5vw;
     width: 200px;
     height: 200px;
 }
