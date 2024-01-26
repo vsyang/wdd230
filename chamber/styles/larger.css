@@ -72,5 +72,9 @@
     .social-media {
         padding-top: 25px;
     }
+
+    main .main2 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     
 }

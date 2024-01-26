@@ -163,11 +163,6 @@ main section  {
     height: 150px;
 }
 
-iframe {
-    margin: 5vw;
-    width: 200px;
-    height: 200px;
-}
 .footer-top {
     display: flex;
     flex-wrap: wrap;
@@ -188,4 +183,16 @@ footer p, #currentYear {
     background-color: black;
     color: #f6f7eb;
     padding: 5px;
+}
+
+iframe {
+    margin: 5vw;
+    width: 200px;
+    height: 200px;
+}
+
+.main2 section {
+    margin: 2vw;
+    height: auto;
+    text-align: center;
 }
