@@ -205,7 +205,7 @@ footer p, #currentYear {
 }
 
 .localAttractions img:hover {
-    rotate: .05turn;
+    border-radius: 150px 10px;
 }
 
 iframe {
