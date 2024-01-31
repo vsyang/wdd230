@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--body-font);
+}   
+
+:root {
+    --body-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --main-color: rgb(4, 4, 82);
+    --input-field: rgb(253, 233, 236);
+}
+
+header, footer, h2 {
+    background-color: #1e538c;
+    text-align: center;
+    color: white;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    position: relative;
+}
+
+header img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#darkBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+header span {
+    padding: 30px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+#menuButton {
+    display: block;
+    font-size: 40px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 44px;
+    text-align: left;
+    padding: 5px 2vw;
+}
+
+#menuButton::before {
+    content: "☰";
+}
+
+#menuButton.open::before {
+    content: "x";
+}
+
+ul.navLinks {
+    display: none;
+    list-style-type: none;
+}
+
+ul.open.navLinks {
+    display: block;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .active {
+    background-color: rgba(123, 29, 29, 0.635);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav li {
+    padding: 10px;
+}
+
+main {
+    padding: 16px;
+}
+
+main.dark {
+    background-color: #495867;
+}
+
+main.dark h1 {
+    color: white;
+}
+
+@media only screen and (min-width: 450px) {    
+    header, nav ul {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    header, main, nav, footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    nav {  
+        margin: 0 auto;
+        height: 44px;
+    }
+    
+    #menuButton {
+        display: none;
+    }
+
+    
+    ul.navLinks, ul.navLinks.open {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+
+    nav li:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    main {
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 20px;
+    }
+
+
+
+}
