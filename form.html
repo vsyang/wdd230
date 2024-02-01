@@ -31,26 +31,29 @@
     </nav>
    
     <main>
-        <form method="get" action="record.html">
+        <form id="myForm" method="get" action="record.html">
             <fieldset>
                 <legend>Create Account</legend>
     
-                <label>Username <input type="text" id="username" name="username" placeholder="Please enter a username" required>
+                <div class="required">*All fields required</div>
+                <label class="top">Username <input type="text" id="username" name="username" placeholder="Please enter a username" required>
                 </label>
     
-                <label>Password <input type="password" id="password" name="password" pattern="[a-zA-z0-9]{8,}" title="Must contain at least 8 characters" placeholder="Must contain at least 8 characters" required>
+                <label class="top">Password <input type="password" id="password" name="password" pattern="[a-zA-z0-9]{8,}" title="Must contain at least 8 characters" placeholder="Must contain at least 8 characters" required>
                 </label>
     
-                <label>Re-Enter Password <input type="password" id="password2" name="password2" pattern="[a-zA-z0-9]{8,}" title="Re-enter password." placeholder="Re-enter password" required>
+                <label class="top">Re-Enter Password <input type="password" id="password2" name="password2" pattern="[a-zA-z0-9]{8,}" title="Re-enter password." placeholder="Re-enter password" required>
                 </label>
                 <div id="messageHere"></div>
     
-                <label>E-mail <input type="email" id="e-mail" name="e-mail" pattern="[a-zA-z0-9._%+-]+@byui\.edu$" placeholder="Your-email@byui.edu" title="Please enter a valid email" required>
-                </label>    
+                <label class="top">E-mail <input type="email" id="e-mail" name="e-mail" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="Your-email@byui.edu" title="Please enter a valid email" required>
+                </label> 
+                <div id="incorrectDomain"></div>   
             </fieldset>
 
             <fieldset>
-                <label>Page Rating</label>
+                <legend>Rate The Page</legend>
+                <label class="top">Your Rating</label>
                 <div id="rangeValue">0</div>
                 <input type="range" id="rating" name="rating" min="0" max="10" value="0" step="1" list="rangeValues">
                 <datalist id="rangeValues">
@@ -81,7 +84,9 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/darkMode.js"></script>
-    <script src="scripts/form.js"></script>
+    <script src="scripts/validatePassword.js"></script>
+    <script src="scripts/validateEmail.js"></script>
+    <script src="scripts/rateMeter.js"></script>
 
 </body>
 </html>

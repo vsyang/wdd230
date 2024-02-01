@@ -3,12 +3,6 @@ const pass2 = document.querySelector('#password2');
 const message = document.querySelector('#messageHere')
 pass2.addEventListener('focusout', checkMatch);
 
-const rangeValue = document.getElementById('rangeValue');
-const range = document.getElementById('rating');
-range.addEventListener('change', displayRatingValue);
-range.addEventListener('input', displayRatingValue);
-
-
 function checkMatch() {
     if (pass1.value !== pass2.value) {
         message.textContent = "❗️ Passwords DO NOT MATCH!";
@@ -21,8 +15,4 @@ function checkMatch() {
         message.style.visibility = 'hidden';
         pass1.style.backgroundColor = '';
     }
-}
-
-function displayRatingValue() {
-    rangeValue.innerHTML = range.value
 }
