@@ -47,7 +47,7 @@ form label.top input, form label.top select {
 }
 
 form input.submitBtn {
-    background-color: rgb(42, 172, 42);
+    background-color: var(--body-text-color);
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
