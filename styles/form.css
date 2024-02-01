@@ -89,7 +89,6 @@ form label.top input:required:valid {
 @media only screen and (min-width: 45em) {
     .submitBtn:hover {
         opacity: .6;
-        color: black;
     }
 
     #rating {
