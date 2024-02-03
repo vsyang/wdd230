@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiore Chamber of Commerce</title>
+    <meta name="description" content="The homepage of Fiore Chamber of Commerce.">
+    <meta name="author" content="Vanessa Yang">
+    <meta property="og:title" content="Vanessa Yang - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdn.pixabay.com/photo/2017/12/10/17/40/prague-3010407_1280.jpg">
+    <meta property="og:url" content="https://vsyang.github.io/wdd230/index.html">
+    <meta property="og:description" content="A beautiful town in the Kingdom of Fiore">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="../favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="../images/fairytail-logo.webp" alt="Fairytail logo">
+        <h1>
+            Fiore Chamber of Commerce
+        </h1>                
+    </header>
+
+    <nav>
+        <button id="menuButton" title="Menu Button"></button>
+        <ul class="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
+        </ul>        
+    </nav>
+
+    <main>
+        <form method="get" action="thankyou.html">
+            <h2 class="formH2">Join the Chamber</h2>
+            <div>*Indicates Required</div>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" id="fname" required>
+                </label>
+
+                <label class="top">Last Name* <input type="text" name="lname" id="lname" required>
+                </label>
+                
+                <label class="top">Title or Position <input type="text" name="title" id="title" pattern="[a-zA-Z -]{7,}">
+                </label>
+
+                <label class="top">Email Address* <input type="email" name="email" id="email" placeholder="Your-email@gmail.com" required> 
+                </label>
+
+                <label class="top">Phone Number* <input type="tel" name="phone" id="phone" required>
+                </label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Business/Guild Information</legend>
+                <label class="top">Business or Guild Name <input type="text" name="biz" id="biz" required>
+                </label>
+
+                <span><br><br><strong>Membership Levels:</strong></span>
+                <label class="radio"><input type="radio" name="membership" id="membership-np" value="np"> Non-Profit (NP)
+                </label>
+
+                <label class="radio"><input type="radio" name="membership" id="membership-bronze" value="bronze"> Bronze Membership
+                </label>
+
+                <label class="radio"><input type="radio" name="membership" id="membership-silver" value="silver"> Silver Membership
+                </label>
+
+                <label class="radio"><input type="radio" name="membership" id="membership-gold" value="gold"> Gold Membership
+                </label>
+                
+                <input type="hidden" name="timestamp" id="timestamp">
+            </fieldset>
+
+            <input type="submit" value="I Want In!" class="submitBtn">
+        </form>
+
+        <table>
+            <caption>
+                Membership Costs and Benefits 
+            </caption>
+
+            <thead>
+                <tr>
+                    <th colspan="3" scope="col">The Levels</th>
+                </tr>
+                <tr>
+                    <th scope="col">
+                        Membership Levels
+                    </th>
+                    <th scope="col">
+                        Cost Per Member
+                    </th>
+                    <th scope="col">
+                        Benefits
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Non-Profit (NP)</td>
+                    <td>Free</td>
+                    <td>✧ Same as Gold Level</td>
+                </tr>
+                <tr>
+                    <td>Bronze</td>
+                    <td>Monthly: 3,000<img src="../images/jewel-symbol.webp" alt="jewel symbol">
+                    <br>Annually: 30,000<img src="../images/jewel-symbol.webp" alt="jewel symbol"></td>
+                    <td>✧ Volunteer and Charity Event Participation
+                    <br>✧ Listing in Directory
+                    <br>✧ Access to Discounts
+                </td>
+            </tr>
+            <tr>
+                <td>Silver</td>
+                <td>Monthly: 4,000<img src="../images/jewel-symbol.webp" alt="jewel symbol">
+                    <br>Annually: 40,000<img src="../images/jewel-symbol.webp" alt="jewel symbol"></td>
+                    <td>✧ Bronze Level Included
+                    <br>✧ Negotiate Deals
+                    <br>✧ Free Education and Training
+                    <br>✧ Take Part in Missions
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gold</td>
+                    <td>Monthly: 5,000<img src="../images/jewel-symbol.webp" alt="jewel symbol">
+                    <br>Annually: 50,000<img src="../images/jewel-symbol.webp" alt="jewel symbol"></td>
+                    <td>✧ Silver and Bronze Included
+                    <br>✧ Special Service Assistance with Marketing, HR, Accounting, and Security
+                    <br>✧ Be Seen on Spotlights on our Webpage
+                    <br>✧ Front Row Seats at the Events Stadium
+                    <br>✧ Exclusive Meet and Greets
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="logo">
+                <img src="../images/fairytail-logo.webp" alt="fairytail logo picture">
+            </div>
+    
+            <div class="contact-section">
+                <h3>
+                    <strong>Fiore Chamber of Commerce</strong>
+                </h3>
+                <h4>
+                    Guild Master's Conference
+                </h4>
+                <address>
+                    101 Dragons Roar Ave
+                    <br>Clover, Fiore 
+                    <br>Kingdom of Fiore
+                    <br><br>Phone: <a href="tel:1234567890">(123) 456-7890</a>
+                </address>
+            </div>
+    
+            <div class="social-media">
+                <a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.webp" alt="LinkedIn" width="60" height="60"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.webp" alt="Facebook" width="60" height="60"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.webp" alt="Twitter" width="60" height="60"></a>
+            </div>
+        </div>
+        <p>
+            &copy; <span id="currentYear"></span> Fiore Chamber of Commerce 🌸 Vanessa Yang 🌸 WDD 230 Project 🌸 Colorado 🇺🇸
+        </p>
+       <p id="lastModified">
+       </p>        
+    </footer>
+
+    <script src="../scripts/getDates.js"></script>
+    <script src="../scripts/hamburgerMenu.js"></script> 
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>

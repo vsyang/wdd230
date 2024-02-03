@@ -94,4 +94,8 @@
         width: 240px;
         height: auto;
     }
+
+    .submitBtn:hover {
+        opacity: .6;
+    }
 }
