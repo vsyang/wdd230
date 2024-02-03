@@ -95,7 +95,37 @@
         height: auto;
     }
 
+    form fieldset{
+        width: 320px;
+    }
+
+    table {
+        margin-right: 0;
+        grid-column: 2/4;
+        width: 465px;
+        height: 180px;
+        position: sticky;
+        top: 10%;
+        place-items: center;
+    }
+
     .submitBtn:hover {
         opacity: .6;
+    }
+
+    .thankYou {
+        grid-column: 1/4;
+    }
+
+    .thankYou img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }  
+    
+    .thankYou h1 {
+        top: 20%;
+        left: 15%;
+        font-size: 60px;
     }
 }
