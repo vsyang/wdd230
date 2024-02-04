@@ -1,0 +1,60 @@
+{
+    "newWardMembers": [
+        {
+            "familyName" : "Smith",
+            "moveDate" : "2020-01-01",
+            "familySize" : "4",
+            "visitedByBishopric" : true,
+            "familyMembers" : [
+                {
+                    "name" : "Nate Smith",
+                    "gender" : "Male",
+                    "birthdate" : "1975-02-14"
+                },
+                {
+                    "name" : "Nyla Smith",
+                    "gender" : "Female",
+                    "birthdate" : "1957-04-12"
+                },
+                {
+                    "name" : "Nick Smith",
+                    "gender" : "Male",
+                    "birthdate" : "1999-12-10"
+                },
+                {
+                    "name" : "Nori Smith",
+                    "gender" : "Female",
+                    "birthdate" : "2005-07-03"
+                }
+            ]
+        },
+        {
+            "familyName" : "Parrish",
+            "moveDate" : "2021-04-30",
+            "familySize" : "4",
+            "visitedByBishopric" : false,
+            "familyMembers" : [
+                {
+                    "name" : "Jeff Parrish",
+                    "gender" : "Male",
+                    "birthdate" : "1966-06-06"
+                },
+                {
+                    "name" : "Deborah Parrish",
+                    "gender" : "Female",
+                    "birthdate" : "1977-07-07"
+                },
+                {
+                    "name" : "Brandy Parrish",
+                    "gender" : "Female",
+                    "birthdate" : "1985-08-05"
+                },
+                {
+                    "name" : "Kristina Parrish",
+                    "gender" : "Female",
+                    "birthdate" : "1990-03-25"
+                }
+            ]
+        }
+    ]
+}
