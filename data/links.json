@@ -1,7 +1,7 @@
 {
     "weeks": [
         {
-            "week": "Week 1:",
+            "week": "Week 1: ",
             "links": [
                 {
                     "url": "week01/holygrail.html", 
@@ -14,7 +14,7 @@
             ]
         },
         {
-            "week": "Week 2:",
+            "week": "Week 2: ",
             "links": [
                 {
                     "url": "week02/design.html",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "week": "Week 3:",
+            "week": "Week 3: ",
             "links": [
                 {
                     "url": "week03/images/landscape.webp", 
@@ -49,7 +49,7 @@
             ]
         },
         {
-            "week": "Week 4:",
+            "week": "Week 4: ",
             "links": [
                 {
                     "url": "week04/images/combinator-exercises-image.webp",
@@ -66,7 +66,7 @@
             ]
         },
         {
-            "week": "Week 5:",
+            "week": "Week 5: ",
             "links": [
                 {
                     "url": "week05/new-ward-members.json",

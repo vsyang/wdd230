@@ -1,3 +1,4 @@
+const activitiesList = document.querySelector('#links-container');
 const baseURL = "https://vsyang.github.io/wdd230/";
 const linksURL = 'https://vsyang.github.io/wdd230/data/links.json';
 
@@ -9,27 +10,18 @@ async function getLinks() {
 } 
 
 function displayLinks(weeks) {
-    const linksContainer = document.getElementById("links-container");
-
     weeks.forEach((week) => {
-        const weekNumber = document.createElement("li");
-        const weekHeader = document.createElement("strong");
-        weekHeader.innerHTML = week.week;
-        weekNumber.appendChild(weekHeader);
-
-        const linksList = document.createElement("ul");
-
-        week.links.forEach((link) => {
-            const linkItem = document.createElement("li");
-            const linkTitle = document.createElement("a")
-            linkTitle.href = link.url.startsWith("https") ? link.url : baseURL + link.url;
-            linkTitle.textContent = link.title;
-            linkItem.appendChild(linkTitle);
-            linksList.appendChild(linkItem);
+        const li = document.createElement('li');
+        li.textContent = `${week}: `;
+        week.links.forEach(link => {
+            const a = document.createElement('a');
+            a.setAttribute('href', baseURL + link.url);
+            a.setAttribute('target', '_blank');
+            a.textContent = `${link.title} | `;
+            li.appendChild(a);
         });
-        weekItem.appendChild(linksList);
-        linksContainer.appendChild(weekNumber);
-    }); 
+        activitiesList.appendChild(li);
+    });
 }
 
 getLinks();

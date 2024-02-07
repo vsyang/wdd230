@@ -170,7 +170,7 @@ main section h2 {
 }
 
 .weather-line #current-temp {
-    margin: 0 1px 0 10px;
+    margin: 0 5px 0 10px;
 }
 
 .weather-line #description {
