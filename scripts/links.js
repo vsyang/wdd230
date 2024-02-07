@@ -11,8 +11,9 @@ async function getLinks() {
 
 function displayLinks(weeks) {
     weeks.forEach((week) => {
+        console.log(week)
         const li = document.createElement('li');
-        li.textContent = `${week}: `;
+        li.textContent = `${week.week} `;
         week.links.forEach(link => {
             const a = document.createElement('a');
             a.setAttribute('href', baseURL + link.url);
