@@ -163,6 +163,7 @@ main section h2 {
     display: grid;
     grid-template-columns: auto 35px auto;
     justify-items: center;
+    margin-top: 10px;
 }
 
 .weather-line #weather-icon {
