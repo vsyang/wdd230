@@ -159,6 +159,25 @@ main section h2 {
     padding: 3px;
 }
 
+.weather-line {
+    display: grid;
+    grid-template-columns: auto 35px auto;
+    justify-items: center;
+}
+
+.weather-line #weather-icon {
+    justify-self: end;
+}
+
+.weather-line #current-temp {
+    margin: 0 1px 0 10px;
+}
+
+.weather-line #description {
+    text-transform: capitalize;
+    justify-self: start;
+}
+
 main p{
     padding: 10px;
     text-align: center;

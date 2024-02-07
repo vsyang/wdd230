@@ -1,7 +1,7 @@
 {
     "weeks": [
         {
-            "week": "Week 1",
+            "week": "Week 1:",
             "links": [
                 {
                     "url": "week01/holygrail.html", 
@@ -10,23 +10,15 @@
                 {
                     "url": "week01/media-query.html",
                     "title": "Media Query"
-                },
-                {
-                    "url": "https://codepen.io/vsyang/pen/yLwaoBV",
-                    "title": "JS Pen"
                 }
             ]
         },
         {
-            "week": "Week 2",
+            "week": "Week 2:",
             "links": [
                 {
                     "url": "week02/design.html",
                     "title": "Design Principles"
-                },
-                {
-                    "url": "https://codepen.io/vsyang/pen/zYbNmBj",
-                    "title": "Responsive Hamburger"
                 },
                 {
                     "url": "week02/bom.html",
@@ -36,7 +28,7 @@
             ]
         },
         {
-            "week": "Week 3",
+            "week": "Week 3:",
             "links": [
                 {
                     "url": "week03/images/landscape.webp", 
@@ -57,59 +49,38 @@
             ]
         },
         {
-            "week": "Week 4",
+            "week": "Week 4:",
             "links": [
                 {
-                    "url": "https://codepen.io/vsyang/pen/OJqOvwK?editors=1100", 
-                    "title": "Pseudo-Classes"
-                }, 
-                {
-                    "url": "week04/",
-                    "title": "Media Query"
+                    "url": "week04/images/combinator-exercises-image.webp",
+                    "title": "Combinators"
                 },
                 {
-                    "url": "https://codepen.io/vsyang/pen/yLwaoBV",
-                    "title": "JS Pen"
+                    "url": "week04/tablebuild.html",
+                    "title": "HTML Tables"
                 },
                 {
-                    "url": "https://codepen.io/vsyang/pen/yLwaoBV",
-                    "title": "JS Pen"
+                    "url": "form-start/index.html",
+                    "title": "Forms Tutorial"
                 }
             ]
         },
         {
-            "week": "Week 5",
+            "week": "Week 5:",
             "links": [
                 {
-                    "url": "week01/holygrail.html", 
-                    "title": "Layout"
-                }, 
-                {
-                    "url": "week01/media-query.html",
-                    "title": "Media Query"
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON"
                 },
                 {
-                    "url": "https://codepen.io/vsyang/pen/yLwaoBV",
-                    "title": "JS Pen"
-                }
-            ]
-        },
-        {
-            "week": "Week 6",
-            "links": [
-                {
-                    "url": "week01/holygrail.html", 
-                    "title": "Layout"
-                }, 
-                {
-                    "url": "week01/media-query.html",
-                    "title": "Media Query"
+                    "url": "week05/prophets.html",
+                    "title": "Fetch API"
                 },
                 {
-                    "url": "https://codepen.io/vsyang/pen/yLwaoBV",
-                    "title": "JS Pen"
+                    "url": "week05/weather.html",
+                    "title": "Weather API"
                 }
             ]
-        }  
+        } 
     ]
 }
