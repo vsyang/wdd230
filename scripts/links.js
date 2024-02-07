@@ -5,13 +5,11 @@ const linksURL = 'https://vsyang.github.io/wdd230/data/links.json';
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    console.log(data)
     displayLinks(data.weeks);
 } 
 
 function displayLinks(weeks) {
     weeks.forEach((week) => {
-        console.log(week)
         const li = document.createElement('li');
         li.textContent = `${week.week} `;
         week.links.forEach(link => {
