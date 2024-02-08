@@ -16,6 +16,7 @@ function displayLinks(weeks) {
             const a = document.createElement('a');
             a.setAttribute('href', baseURL + link.url);
             a.setAttribute('target', '_blank');
+            // if statement for this part
             a.textContent = `${link.title} | `;
             li.appendChild(a);
         });

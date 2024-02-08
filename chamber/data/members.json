@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Sky High",
+            "address": "12 Dragons Roar Ave, Clover, Fiore",
+            "phone": "223-445-1890", 
+            "website": "https://www.skyhigh.com",
+            "image": "skyhigh.webp",
+            "memberLevel": "Gold",
+            "businessType": "Travel"
+        },
+        {
+            "name": "Makarov Consults",
+            "address": "9791 Blue Fire Dr, Clover, Fiore",
+            "phone": "618-758-2907", 
+            "website": "https://www.makarovconsults.com",
+            "image": "makarovconsults.webp",
+            "memberLevel": "Gold",
+            "businessType": "Guild Consultant"
+        },
+        {
+            "name": "Scarlet Swords",
+            "address": "820 Fairy Cir, Clover, Fiore",
+            "phone": "934-959-1940", 
+            "website": "https://www.scarletswords.com",
+            "image": "scarletswords.webp",
+            "memberLevel": "Gold",
+            "businessType": "Blacksmith"
+        },
+        {
+            "name": "Lightning Dragon",
+            "address": "5151 Magic St, Cover, Fiore",
+            "phone": "618-209-5730", 
+            "website": "https://www.lightningdragon.com",
+            "image": "lightningdragon.webp",
+            "memberLevel": "Silver",
+            "businessType": "Electricity"
+        },
+        {
+            "name": "Mira's Place",
+            "address": "9875 Fairy Circle",
+            "phone": "895-438-9403", 
+            "website": "https://www.mirasplace.com",
+            "image": "mirasplace.webp",
+            "memberLevel": "Silver",
+            "businessType": "Resturaunt"
+        },
+        {
+            "name": "Happy's Fish",
+            "address": "246 Charolett Drive, Clover, Fiore",
+            "phone": "234-142-4256", 
+            "website": "https://www.happysfish.com",
+            "image": "happysfish.webp",
+            "memberLevel": "Bronze",
+            "businessType": "Grocery"
+        },
+        {
+            "name": "Mavis Vermillion Organization",
+            "address": "000 Master St, Clover, Fiore",
+            "phone": "010-101-0101", 
+            "website": "https://www.mastermavis.org",
+            "image": "mastermavis.webp",
+            "memberLevel": "NP",
+            "businessType": "Non-Profit Organization"
+        }
+    ]
+}

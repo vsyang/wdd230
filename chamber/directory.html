@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You</title>
-    <meta name="description" content="The form has been submitted successfully.">
+    <title>Directory of the Fiore Chamber of Commerce</title>
+    <meta name="description" content="The directory page with the listing of the members of the chamber.">
     <meta name="author" content="Vanessa Yang">
     <meta property="og:title" content="Vanessa Yang - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
@@ -32,16 +32,19 @@
         <ul class="navLinks">
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>        
     </nav>
 
     <main>
-        <div class="thankYou">
-            <h1>Thank You!</h1>
-            <img src="images/natsu.webp" alt="Natsu with hands on fire">
-            <p>Your application was successfully submitted. We hope to see you soon!</p>
+        <div class="member-directory">
+            <img class="business-card" src="#" alt="#">
+            <p id="business-name"></p>
+            <p id="address"></p>
+            <p id="phone"></p>
+            <p id="website"></p>
+            
         </div>
     </main>
 
@@ -80,6 +83,7 @@
     </footer>
 
     <script src="../scripts/getDates.js"></script>
-    <script src="../scripts/hamburgerMenu.js"></script>
+    <script src="../scripts/hamburgerMenu.js"></script> 
+    <script src="scripts/chamber.js"></script>
 </body>
 </html>
