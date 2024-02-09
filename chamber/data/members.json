@@ -2,36 +2,36 @@
     "members": [
         {
             "name": "Sky High",
-            "address": "12 Dragons Roar Ave, Clover, Fiore",
+            "address": "12 Dragons Roar Avenue",
             "phone": "223-445-1890", 
-            "website": "https://www.skyhigh.com",
+            "website": "www.skyhigh.com",
             "image": "skyhigh.webp",
             "memberLevel": "Gold",
             "businessType": "Travel"
         },
         {
             "name": "Makarov Consults",
-            "address": "9791 Blue Fire Dr, Clover, Fiore",
+            "address": "9791 Blue Fire Drive",
             "phone": "618-758-2907", 
-            "website": "https://www.makarovconsults.com",
+            "website": "www.makarovconsults.com",
             "image": "makarovconsults.webp",
             "memberLevel": "Gold",
             "businessType": "Guild Consultant"
         },
         {
             "name": "Scarlet Swords",
-            "address": "820 Fairy Cir, Clover, Fiore",
+            "address": "820 Fairy Circle",
             "phone": "934-959-1940", 
-            "website": "https://www.scarletswords.com",
+            "website": "www.scarletswords.com",
             "image": "scarletswords.webp",
             "memberLevel": "Gold",
             "businessType": "Blacksmith"
         },
         {
             "name": "Lightning Dragon",
-            "address": "5151 Magic St, Cover, Fiore",
+            "address": "5151 Magic Street",
             "phone": "618-209-5730", 
-            "website": "https://www.lightningdragon.com",
+            "website": "www.lightningdragon.com",
             "image": "lightningdragon.webp",
             "memberLevel": "Silver",
             "businessType": "Electricity"
@@ -40,25 +40,25 @@
             "name": "Mira's Place",
             "address": "9875 Fairy Circle",
             "phone": "895-438-9403", 
-            "website": "https://www.mirasplace.com",
+            "website": "www.mirasplace.com",
             "image": "mirasplace.webp",
             "memberLevel": "Silver",
             "businessType": "Resturaunt"
         },
         {
             "name": "Happy's Fish",
-            "address": "246 Charolett Drive, Clover, Fiore",
+            "address": "246 Charolett Drive",
             "phone": "234-142-4256", 
-            "website": "https://www.happysfish.com",
+            "website": "www.happysfish.com",
             "image": "happysfish.webp",
             "memberLevel": "Bronze",
             "businessType": "Grocery"
         },
         {
             "name": "Mavis Vermillion Organization",
-            "address": "000 Master St, Clover, Fiore",
+            "address": "000 Master Street",
             "phone": "010-101-0101", 
-            "website": "https://www.mastermavis.org",
+            "website": "www.mastermavis.org",
             "image": "mastermavis.webp",
             "memberLevel": "NP",
             "businessType": "Non-Profit Organization"

@@ -128,4 +128,17 @@
         left: 15%;
         font-size: 60px;
     }
+
+    .directory-main {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    
+    .directory-header {
+        grid-column: 1/4;
+    }
+
+    .directory-buttons img{
+        grid-column: 2/3;
+    }
 }

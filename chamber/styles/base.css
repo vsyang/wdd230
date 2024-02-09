@@ -352,3 +352,57 @@ tbody tr:nth-child(even) {
 .thankYou p {
     margin: 2vw;
 }
+
+.directory-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.directory-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.directory-buttons img{
+    border: 5px solid; 
+    border-image-slice: 1;
+    padding: 1px;
+    animation: joinUs 8s infinite;
+}
+
+#grid-button, #list-button{
+border: none;
+}
+
+#member-directory {
+    margin: 10vw;
+}
+
+#member-directory img {
+    margin-bottom: 20px;
+}
+
+section.information {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(254, 236, 236);
+    justify-content: space-evenly;
+    row-gap: 15px;
+}
+
+.list h3 {
+    font-size: 25px;
+    font-weight: black;
+    margin-bottom: 15px;
+}
+
+section.information:nth-child(even) {
+    background-color: rgb(221, 221 , 221);
+}

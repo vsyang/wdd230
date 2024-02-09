@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Directory of the Fiore Chamber of Commerce</title>
-    <meta name="description" content="The directory page with the listing of the members of the chamber.">
+    <meta name="description" content="The directory page with the listing of the members of the Fiore Chamber of Commerce.">
     <meta name="author" content="Vanessa Yang">
     <meta property="og:title" content="Vanessa Yang - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
@@ -38,15 +38,14 @@
     </nav>
 
     <main>
-        <div class="member-directory">
-            <img class="business-card" src="#" alt="#">
-            <p id="business-name"></p>
-            <p id="address"></p>
-            <p id="phone"></p>
-            <p id="website"></p>
-            <p id="level"></p>
-
+        <h2 class="directory-header">Member Directory</h2>
+        
+        <div class="directory-buttons">
+            <button id="grid-button" class="active button"><img src="images/grid-icon.webp" alt="grid button icon" title="grid button"></button>
+            <button id="list-button" class="button"><img src="images/list-icon.webp" alt="list button icon" title="list button"></button>
         </div>
+
+        <div id="member-directory" class="grid"></div>
     </main>
 
     <footer>
@@ -85,6 +84,6 @@
 
     <script src="../scripts/getDates.js"></script>
     <script src="../scripts/hamburgerMenu.js"></script> 
-    <script src="/scripts/members.js"></script>
+    <script src="scripts/members.js"></script>
 </body>
 </html>
