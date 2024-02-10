@@ -404,5 +404,5 @@ section.information {
 }
 
 section.information:nth-child(even) {
-    background-color: rgb(221, 221 , 221);
+    background-color: rgba(216, 216, 216, 0.428);
 }
