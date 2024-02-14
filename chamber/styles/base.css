@@ -103,7 +103,7 @@ nav li {
     padding: 10px;
 }
 
-
+/* home page */
 .hero img {
     position: relative;
     display: block;
@@ -120,7 +120,7 @@ nav li {
     opacity: 0.7;
     text-align: center;
     transform: translate(-50%, -100%);
-    top: 50%;
+    top: 60%;
     left: 45%;
 }
 
@@ -150,9 +150,19 @@ main section  {
     color: black;
     border: 1px solid rgb(63, 60, 60, 0.4);
     border-radius: 5px;
-    overflow: hidden;
     background-color: #eee;
-    height: 150px;
+    text-align: center;
+}
+
+.weather-info table {
+    width: 100%;
+
+}
+
+.weather-info td, .weather-info th {
+
+    text-align: center;
+    vertical-align: middle;
 }
 
 .spotlights {
@@ -216,6 +226,7 @@ iframe {
     height: 200px;
 }
 
+/* Join page */
 .formH2 {
     text-align: center;
     padding: 20px;
@@ -353,6 +364,7 @@ tbody tr:nth-child(even) {
     margin: 2vw;
 }
 
+/* directory page */
 .directory-header {
     text-align: center;
     padding: 20px;
