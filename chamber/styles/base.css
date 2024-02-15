@@ -156,11 +156,14 @@ main section  {
 
 .weather-info table {
     width: 100%;
+    margin: 0;
+}
 
+.weather-info th {
+    background-color: rgb(254, 236, 236);
 }
 
 .weather-info td, .weather-info th {
-
     text-align: center;
     vertical-align: middle;
 }

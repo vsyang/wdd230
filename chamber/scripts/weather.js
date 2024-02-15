@@ -14,7 +14,7 @@ async function apiFetch() {
         if (response.ok) {
             const data = await response.json();
             const forecast = await forecastResponse.json();
-            // console.log(data, forecast);
+            console.log(data, forecast);
             displayResults(data, forecast);
         } else {
             throw Error(await response.text());
