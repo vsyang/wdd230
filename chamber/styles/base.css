@@ -115,7 +115,7 @@ nav li {
 .hero-content {
     margin: 20px;
     padding: 25px;
-    position: absolute;
+    position: relative;
     box-sizing: border-box;
     opacity: 0.7;
     text-align: center;
@@ -166,10 +166,12 @@ main section  {
 .weather-info td, .weather-info th {
     text-align: center;
     vertical-align: middle;
+    border: none;
 }
 
 .spotlights {
-    height: 494px;
+    height: auto;
+    border: 1px solid lightgray;
 }
 
 .spotlight {

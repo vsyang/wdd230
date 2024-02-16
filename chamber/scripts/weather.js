@@ -14,7 +14,7 @@ async function apiFetch() {
         if (response.ok) {
             const data = await response.json();
             const forecast = await forecastResponse.json();
-            console.log(data, forecast);
+            // console.log(data, forecast);
             displayResults(data, forecast);
         } else {
             throw Error(await response.text());
@@ -63,7 +63,7 @@ function displayResults(data, forecast) {
     let forecastBody = document.createElement('tbody');
     let forecastRow = document.createElement('tr');
     let forecastContext = document.createElement('th');
-    forecastContext.textContent = '3 Day Forecast';
+    forecastContext.textContent = '3-Day Forecast';
     forecastContext.setAttribute('colspan', '3');
     forecastHead.appendChild(forecastContext);
     forecastTable.appendChild(forecastHead);
