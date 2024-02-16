@@ -48,6 +48,9 @@
 
     .hero-content {
         width: 500px;
+        position: relative;
+        top: 0.5%;
+        left: 49%;
     }
 
     .current-events {
