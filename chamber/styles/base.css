@@ -103,6 +103,28 @@ nav li {
     padding: 10px;
 }
 
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+footer .logo img {
+    width: 90px;
+    padding-top: 30px;
+}
+
+.social-media {
+    padding-top: 25px;
+}
+
+footer p, #currentYear {
+    background-color: black;
+    color: #f6f7eb;
+    padding: 5px;
+}
+
 /* home page */
 .hero img {
     position: relative;
@@ -166,6 +188,19 @@ main section  {
     text-align: center;
 }
 
+.current-events {
+    background-image: url(../images/fairytail-team-pic.webp);
+    background-size: cover;
+}
+
+#current-paragraph {
+    margin: 50px 25px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.185);
+    text-shadow: 2px 2px black;
+    padding: 10px;
+}
+
 .weather-info table {
     width: 100%;
     margin: 0;
@@ -201,28 +236,7 @@ main section  {
 
 }
 
-.footer-top {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 20px;
-}
-
-footer .logo img {
-    width: 90px;
-    padding-top: 30px;
-}
-
-.social-media {
-    padding-top: 25px;
-}
-
-footer p, #currentYear {
-    background-color: black;
-    color: #f6f7eb;
-    padding: 5px;
-}
-
+/* discover page */
 .main2 section {
     margin: 2vw;
     height: auto;
@@ -240,10 +254,6 @@ footer p, #currentYear {
 
 .localAttractions figure img{
     border: 2px solid black;  
-}
-
-.localAttractions img:hover {
-    border-radius: 150px 10px;
 }
 
 iframe {

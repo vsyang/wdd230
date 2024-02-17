@@ -1,5 +1,5 @@
 const weather = document.querySelector('.weather-info');
-const url = '//api.openweathermap.org/data/2.5/';
+const url = 'https://api.openweathermap.org/data/2.5/';
 const apiKey = 'c8e24775a530c3c13e6c5c81a4f0e243';
 
 async function apiFetch() {
