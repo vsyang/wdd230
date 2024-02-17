@@ -4,7 +4,6 @@ const membersURL = 'data/members.json';
 async function getMembers() {
     const response = await fetch(membersURL);
     const data = await response.json();
-    console.log(data);
     displaySpotlights(data);
 }
 
@@ -22,8 +21,8 @@ function displaySpotlights (data) {
         const businessImage = document.createElement('img');
         businessImage.setAttribute('src', `images/${randomMember.image}`);
         businessImage.setAttribute('alt', randomMember.name);
-        businessImage.setAttribute('width', 300);
-        businessImage.setAttribute('height', 171);
+        businessImage.setAttribute('width', 250);
+        businessImage.setAttribute('height', 143);
         businessImage.setAttribute('loading', 'lazy');
 
         spotlight.appendChild(businessImage);

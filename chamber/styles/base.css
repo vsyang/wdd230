@@ -145,6 +145,18 @@ button, .cta {
     100% {color: pink;}
 }
 
+.banner {
+    margin: 2vw;
+    padding: 10px;
+    background-color: var(--shadow2);
+    text-align: center;
+}
+
+.close-banner {
+    position: relative;
+    right: -47%;
+}
+
 main section  {
     margin: 1rem 2vw;
     color: black;
@@ -157,10 +169,15 @@ main section  {
 .weather-info table {
     width: 100%;
     margin: 0;
+    border: 1px solid rgb(63, 60, 60, 0.4);
 }
 
 .weather-info th {
     background-color: rgb(254, 236, 236);
+}
+
+.weather-info td {
+    background-color: rgb(244, 244, 244);
 }
 
 .weather-info td, .weather-info th {
@@ -170,13 +187,18 @@ main section  {
 }
 
 .spotlights {
+    width: auto;
     height: auto;
-    border: 1px solid lightgray;
+    border: 1px solid lightgray;    
+    margin: 30px;
+    background-color: white;
+    padding: 20px;
 }
 
-.spotlight {
-    border: solid black 1px;
-    height: 150px;
+.spotlights h3 {
+    margin: 25px 0;
+    font-size: larger;
+
 }
 
 .footer-top {

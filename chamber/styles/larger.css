@@ -53,6 +53,14 @@
         left: 49%;
     }
 
+    .banner {
+        grid-column: 1/4;
+    }
+
+    .close-banner {
+        right: -49%;
+    }
+
     .current-events {
         grid-column: 1/3;
     }
