@@ -201,6 +201,11 @@ main section  {
     padding: 10px;
 }
 
+#current-paragraph a {
+    color: white;
+    text-decoration: none;
+}
+
 .weather-info table {
     width: 100%;
     margin: 0;
